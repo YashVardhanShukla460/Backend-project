@@ -1,16 +1,19 @@
 {
   "name": "backend-project",
   "version": "1.0.0",
-  "description": "backenf project bana rhe hai 1 dma tgda bala",
+  "description": "backend project bana rhe hai 1 dam tgda bala",
   "keywords": [
     "js",
     "backend"
   ],
   "license": "ISC",
   "author": "Yash",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
